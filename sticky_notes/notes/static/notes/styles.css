@@ -1,0 +1,39 @@
+/* notes/static/notes/styles.css */
+
+body {
+  font-family: "Arial", sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  margin: 20px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+.sticky-note-block {
+  background-color: lightyellow; /* Any element with class="highlight" */
+  padding: 15px;
+  border: 1px dashed orange;
+}
